@@ -1,0 +1,23 @@
+---
+title: "Introd"
+output: html_fragment
+---
+
+<center> 
+#   **INTRODUCTION**
+</center>
+
+<div class=text-justify>
+
+[The Metropolitan Area of the Aburrá Valley](https://www.metropol.gov.co/) is composed of 10 municipalities: Medellín (the principal city), Barbosa, Girardota, Copacabana, Bello, Envigado, Itag, La Estrella, Sabaneta and Caldas. In recent years, the Metropolitan Area of the Aburrá Valley has been the protagonist of different critical episodes of pollution, due to the interaction of different factors such as: topography, climate and meteorological conditions, and high pollutant emissions resulting from human activities (Metropolitan Area, 2018), which favor the accumulation of pollutants and hinder the dispersion of these to higher levels of the atmosphere. Within the accumulation of pollutants that exist, the particulate material PM 2.5 stands out, which corresponds to particles of 2.5 microns or less, which enter the organism and are deposited in the deepest part of the respiratory tract, such as the alveolar sacs (Quijano-Parra et al., 2010) and favor the growth of respiratory and cardiac diseases.
+
+The declaration of the episode of air pollution occurs when the amount of pollutants in the air reaches levels that affect the health of the population. The base pollutants to declare episodes are: particulate material of 10 and 2.5 microns (PM 2.5 and 10) and ozone. In addition, one of the conditions for the critical episode of contamination is when the monitoring stations report an Air Quality Index (AQI) from the color orange, hence the importance of estimating and predicting this indicator.
+
+Throughout this problem, the academic community has developed works to estimate and predict PM 2.5 levels in air quality monitoring stations, through quantitative and qualitative methodologies such as: time series, regression and correlation analysis, among others. One of the studies found was the study of air quality in the Aburrá Valley developed by Julián Bedoya and Elkin Martínez, they made the study of pollutants such as particulate material PM 10, nitrogen oxides, Sulfur and carbon monoxide and developed models of time series, which allow adjusting the data using linear trend lines. On the other hand, Daniela Baena Salazar, Fernando Jiménez and Carmen Elena Zapata created a neural network that allows predicting episodes of air pollution, by correlating meteorological variables and particulate material PM 2.5 (Faculty of Mines, 2016). 
+
+As a result of this problem, the main objective of this application is to show the estimation and prediction of the PM 2.5 value in the Aburrá Valley Metropolitan Area, through the analysis of meteorological variables such as: air temperature, speed and wind direction, precipitation and temporary variables such as: month and hour.
+
+For the development of the models, daily data were obtained from the [Early Warning System of the Aburrá Valley (SIATA)](https://siata.gov.co/siata_nuevo/) between the period of November 2017 and April 2018, from 5 monitoring stations located in the Aburrá Valley. The stations of Girardota, Universidad Nacional, Universidad Lasallista, Museum of Antioquia and La Estrella were selected, because they measure all the variables of interest.
+
+<center> <img src= "https://raw.githubusercontent.com/angiepcorreas/Shinycontest/master/Mapa_estaciones.PNG" width="700"/> </center>
+---

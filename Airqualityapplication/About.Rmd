@@ -1,0 +1,26 @@
+---
+title: "About"
+output: html_fragment
+---
+
+<center> 
+#   **ABOUT THIS APP**
+</center>
+
+<div class=text-justify>
+
+This app was created to show a descriptive analysis about the pollutants that frequently affect the Metropolitan Area of the Aburrá Valley (Medellín, Colombia), especially the PM 2.5 pollutant, whose high concentrations have triggered environmental contingencies. The purpose of this app is that the user understands easier what happens in the Metropolitan Area in terms of air quality.
+
+---
+
+<center> <h2> **ABOUT SIATA (EARLY WARNING SYSTEM OF THE ABURRA VALLEY)** </center>
+
+<div class=text-justify>
+
+[The Early Warning System of the Aburrá Valley](https://siata.gov.co/siata_nuevo/) (Sistema de Alerta Temprana del Valle de Aburrá, SIATA, for its acronym in Spanish) is a science and technology project which has the support and contributions of EPM and ISAGEN (Important companies in Colombia).
+
+The SIATA is a regional strategy for risk management, they monitor the environmental conditions of the Aburra Valley in Antioquia (Colombia) to strengthen decision-making based on information and the timely intervention of the response agencies making it possible to access in real time the information generated and required on the probability of occurrence of extreme events that threaten the quality of life of the metropolitan inhabitants. What kind of events? Extreme rainfall, floods, mass movements, air quality, among others.
+
+<center> <img src="https://siata.gov.co/siata_nuevo/application/assets/img/siata_nuevo/siata_media.jpg" width="300"/> </center>
+
+---

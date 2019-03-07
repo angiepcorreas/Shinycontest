@@ -11,7 +11,7 @@ load(file="entorno.RData")
 
 header <- dashboardHeader(title = 'Air Quality - Aburrá Valley', titleWidth = 400,
                           tags$li(a(href = 'https://siata.gov.co/siata_nuevo/',
-                                    img(src = 'https://angiepcorreas.rstudio.cloud/eaeba31e54174e3cb8ba698fad7d5ce5/file_show?path=%2Fcloud%2Fproject%2FAirquality%2FSIATA.png', 
+                                    img(src = 'https://raw.githubusercontent.com/angiepcorreas/Shinycontest/master/SIATA.png', 
                                         title = "Clic to visit the SIATA website",
                                         height = "30px"),
                                     style = "padding-top:10px; padding-bottom:10px;"
@@ -19,7 +19,7 @@ header <- dashboardHeader(title = 'Air Quality - Aburrá Valley', titleWidth = 4
                           class = "dropdown"),
                           
                           tags$li(a(href = 'https://www.metropol.gov.co/ambiental/calidad-del-aire/Paginas/calidad-del-aire.aspx',
-                                    img(src = 'https://angiepcorreas.rstudio.cloud/eaeba31e54174e3cb8ba698fad7d5ce5/file_show?path=%2Fcloud%2Fproject%2FAirquality%2Farealogo.jpg', #no sirve url
+                                    img(src = 'https://raw.githubusercontent.com/angiepcorreas/Shinycontest/master/arealogo.jpg', 
                                         title = "Clic to visit the Área Metropolitana website",
                                         height = "30px"),
                                     style = "padding-top:10px; padding-bottom:10px;"
@@ -78,6 +78,10 @@ body <- dashboardBody(
     ),
     
     tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});'))),
+    
+    tags$style(HTML(".js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {background: green; border-top: 2px green; border-bottom: 2px green;border-left: 2px green}")),
+    
+    tags$style(HTML(".js-irs-0 .irs-max, .js-irs-0 .irs-min {background:#CFFDAF}")),
     
     tabItems(
         tabItem("intro", includeHTML("Introduction.html")), 

@@ -5,8 +5,8 @@ account: angiepcorreas
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 738595
-bundleId: 1898558
+bundleId: 1921186
 url: https://angiepcorreas.shinyapps.io/Airqualityapplication/
-when: 1551116591.50843
+when: 1551920249.18704
 asMultiple: FALSE
 asStatic: FALSE
